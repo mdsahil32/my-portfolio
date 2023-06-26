@@ -3,7 +3,7 @@ import plus from '../../public/plus.json'
 import Lottie from 'lottie-react'
 const About = () => {
     return (
-        <div id='about' className='grid grid-cols-1 md:grid-cols-2 mx-auto justify-center items-center max-w-screen-lg	'>
+        <div id='about' className='grid grid-cols-1 md:grid-cols-2 mx-auto justify-center items-center max-w-screen-lg	bg-gray-100 my-24'>
             <div>
                 <Lottie animationData={plus}></Lottie>
             </div>
