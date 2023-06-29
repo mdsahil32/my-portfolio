@@ -4,7 +4,8 @@ import Banner from './Components/Banner'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
-import Projects from './Components/Projects'
+import Projects from './Components/Projects/Projects'
+import Skills from './Components/Skills'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <div className=''>
       <Header></Header>
       <Banner></Banner>
+      <Skills></Skills>
       <About></About>
       <Projects></Projects>
       <Contact></Contact>

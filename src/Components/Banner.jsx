@@ -1,6 +1,5 @@
 import React from 'react';
-import computer from '../../public/computer.json'
-import Lottie from 'lottie-react'
+import img from '../assets/profile.png'
 
 const Banner = () => {
     return (
@@ -10,8 +9,8 @@ const Banner = () => {
                 <p className='my-4 mb-8'> Hi, I'm Mohammed Sahil. A passionate Front-end React Developer based in Chittagong, Bangladesh.</p>
                 <a className='bg-gradient-to-r from-black to-[#068E75] text-white text-xl p-3 rounded-lg' href="https://drive.google.com/file/d/1qIyfvZPbgB2N27gm7IHIlkdnM5OYNBt6/view">Resume</a>
             </div>
-            <div >
-                <Lottie animationData={computer}></Lottie>
+            <div className='p-24 my-8 rounded'>
+                <img className='rounded-full border-2 border-green-600 bg-gradient-to-r from-black to-[#068E75]' src={img} alt="" />
             </div>
         </div>
     );
