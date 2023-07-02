@@ -7,7 +7,7 @@ const ProjectsThree = () => {
     return (
         <div className='grid md:grid-cols-2 mx-auto p-6 space-x-5 mt-12'>
 
-            <div className='bg-gray-200'>
+            <div data-aos-duration="2000" data-aos="fade-right" className='bg-gray-200'>
                 <div className="h-72 carousel carousel-vertical bg-gray-400 rounded-box ">
                     <div className="carousel-item h-full">
                         <img src={img1} />
@@ -20,7 +20,8 @@ const ProjectsThree = () => {
                     </div>
                 </div>
             </div>
-            <div className='border-l-4 ps-4'>
+
+            <div data-aos-duration="2000" data-aos="fade-left" className='border-l-4 ps-4'>
                 <h3 className='mb-3'>
                     <span className='uppercase text-blue-500 text-xl pe-4 font-bold'>
                         Sport Academy

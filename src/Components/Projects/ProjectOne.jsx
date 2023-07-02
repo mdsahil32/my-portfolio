@@ -9,7 +9,8 @@ const ProjectOne = () => {
     <div className='grid md:grid-cols-2 mx-auto p-6 space-x-5 mt-6'>
 
       <div className='bg-gray-200'>
-        <div className="h-72 carousel carousel-vertical bg-gray-400 rounded-box ">
+        <div data-aos-duration="2000" data-aos="fade-right"  className="h-72 carousel carousel-vertical bg-gray-400 rounded-box ">
+
           <div className="carousel-item h-full">
             <img src={img1} />
           </div>
@@ -21,7 +22,8 @@ const ProjectOne = () => {
           </div>
         </div>
       </div>
-      <div className='border-l-4 ps-4'>
+
+      <div data-aos-duration="2000" data-aos="fade-left" className='border-l-4 ps-4'>
         <h3 className='mb-2'>
           <span className='uppercase text-xl font-bold'>
             Grand master <span className='text-orange-500 pr-4'>chef</span>

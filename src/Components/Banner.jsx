@@ -16,7 +16,7 @@ const Banner = () => {
                     <a className='' href="https://github.com/mdsahil32"><p className='text-3xl'><FaGithub></FaGithub></p></a>
                 </div>
             </div>
-            <div className='p-24 my-8 rounded'>
+            <div className='md:p-24 md:my-8 rounded'>
                 <img className='rounded-full border-2 border-green-600 bg-gradient-to-r from-black to-[#068E75]' src={img} alt="" />
             </div>
         </div>

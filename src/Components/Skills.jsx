@@ -7,8 +7,8 @@ const Skills = () => {
     return (
         <div id='skills' className='max-w-screen-lg mx-auto'>
 
-            {/* <Lottie animationData={computer}></Lottie> */}
             <h1 className='text-5xl mb-6 border-l-4 border-black font-semibold'>My Skills</h1>
+           
             <div className='grid md:grid-cols-3 gap-5'>
 
                 <div className='shadow-xl text-center mx-auto'>
@@ -37,6 +37,8 @@ const Skills = () => {
                         <p>MONGODB</p>
                     </div>
                 </div>
+
+               
 
                 <div className='shadow-xl text-center mx-auto'>
                     <div className='bg-gradient-to-r from-white to-[#068E75]  mx-auto px-24 py-6'>
