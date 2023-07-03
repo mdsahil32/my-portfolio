@@ -12,6 +12,7 @@ const Contact = () => {
         const email = form.email.value;
         const comment = form.comment.value;
         const data = { name, email, comment }
+        form.reset()
         Swal.fire({
             position: 'top-end',
             icon: 'success',
