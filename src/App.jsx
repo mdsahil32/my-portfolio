@@ -1,5 +1,6 @@
 import './App.css'
 import About from './Components/About'
+import Animation from './Components/Animation/Animation'
 import Banner from './Components/Banner'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
@@ -16,6 +17,7 @@ function App() {
       <Skills></Skills>
       <About></About>
       <Projects></Projects>
+      <Animation></Animation>
       <Contact></Contact>
       <Footer></Footer>
     </div>
